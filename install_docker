@@ -14,4 +14,3 @@ sudo service docker start
 sudo apt-get update -y
 echo "docker installed"
 sudo docker compose up -d
-sudo sh initiate-guacamole.sh > initiate-guacamole-output.txt
