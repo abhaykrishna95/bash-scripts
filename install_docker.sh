@@ -12,4 +12,6 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 sudo usermod -aG docker $USER
 sudo service docker start
 sudo apt-get update -y
-echo "docker installation completed"
+echo "docker installed"
+sudo docker compose up -d
+sudo sh initiate-guacamole.sh > initiate-guacamole-output.txt
